@@ -135,7 +135,7 @@ lines');
 console.log(`String
 multiple
 lines`);
-*/
+
 const age = 15;
 if (age >= 18){
     console.log('Search can start driving licence');
@@ -171,3 +171,22 @@ const birthYear = 2012;
  else{
      console.log(`John's BMI(${BMIJohn}) is heigher then Marks's (${BMIMark})!`)
  }
+ */
+
+ const inputYear = '1991';
+ console.log(Number(inputYear),inputYear);
+ console.log(Number(inputYear) + 18);
+
+ console.log(Number('jonas'));
+ console.log(typeof Nan);
+  console.log(String(23),23);
+
+  console.log('I am' + 23 +' years old');
+  console.log('23' - '10' - 3);
+  console.log('23' / '2');
+  console.log('23' > '18');
+
+  let n = '1' + 1;
+  n = n -1;
+  console.log(n);
+
