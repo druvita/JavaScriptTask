@@ -268,5 +268,5 @@ console.log(dhruvi.bmi, vimal.bmi);
 
 
 for(let rep = 1; rep <= 10; rep = rep++){
-    console.log('dsdsd');
+    console.log('dsdsd ${rep}');
 }
